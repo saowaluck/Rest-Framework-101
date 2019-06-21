@@ -89,6 +89,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+cypress.env.json
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +103,27 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Ds store
+.DS_store
+
+# SSH key
+/key/ssh_key
+
+# Editor config
+.vscode
+.idea
+
+# Vault Key
+pronto-exim-password
+
+# Result logs
+pronto_exim/tmp/csv/
+pronto_exim/tmp/images/
+pronto_exim/tmp/json/
+pronto_exim/tmp/logs/
+
+# Static file
+**/static/
+
+node_modules/
